@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 02</title>
+    <style>
+      .container {
+        border: 2px solid black;
+        background-color: pink;
+        height: 70vh;
+        width: 500px;
+        font-size: 1.5em;
+        margin: 0px auto;
+        grid-gap: 10px;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        border: 2px solid black;
+      }
+      .header { grid-column: 1/12 span;
+        border: 2px solid black;
+      }
+      .sidebar {
+        grid-row: 2 / span 10;
+        grid-column: 1 / span 3;
+        border: 2px solid black;
+      }
+      .navigation {
+        grid-column: 4 / span 6;
+        grid-row: 2 / span 1;
+        border: 2px solid black;
+      }
+      .ads {
+        grid-row: 2 / span 10;
+        grid-column: 10 / span 3;
+        border: 2px solid black;
+      }
+      .main {
+        grid-row: 3 / span 9;
+        grid-column: 4 / span 6;
+        border: 2px solid black;
+      }
+      .footer {
+        grid-row: 12 / span 1;
+        grid-column: 1 / span 12;
+        border: 2px solid black;
+      } 
+     
+      @media (min-width: 720px) {
+        .header {
+          grid-column: 1 / span 12;
+        }
+        .sidebar{
+            grid-row: 3 / span 9;
+            grid-column: 1 /span 3;
+        }
+        .navigation{
+            grid-row: 2 / span 1;
+            grid-column: 1 / span 12;
+        }
+        .ads{
+            grid-row: 12 / span 1;
+            grid-column: 1 / span 3;
+        }
+        .main{
+            grid-row: 2 / span 9;
+            grid-column: 4 /span 9;
+        }
+        .footer{
+            grid-row: 12 / span 1;
+            grid-column: 4 / span 9;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">header</div>
+      <div class="sidebar">sidebar</div>
+      <div class="navigation">navigation</div>
+      <div class="ads">ads</div>
+      <div class="main">main</div>
+      <div class="footer">footer</div>
+    </div>
+  </body>
+</html>
