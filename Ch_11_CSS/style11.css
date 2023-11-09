@@ -1,0 +1,108 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    color: rgb(182, 48, 30);
+}
+h1{
+    color: rgb(182, 48, 30);
+}
+#login{
+    background-color: aliceblue;
+}
+#signup{
+    background-color: rgb(182, 48, 30);
+    color: white;
+}
+.up{
+    background-color: aqua;
+    color: aliceblue;
+}
+p a{
+    background-color: yellowgreen;
+}
+.link{
+    background-color: chartreuse;
+    color: aliceblue;
+}
+p + h3{
+    text-decoration: underline;
+}
+div > input{
+    background-color: bisque;
+    color: black;
+}
+input[type="text"]{
+    color: chocolate;
+}
+input[type="password"]{
+    color: yellowgreen;
+}
+input[type="number"]{
+    color: brown;
+}
+input[type]{
+    background-color: aqua;
+}
+#myid p{
+    color: violet;
+}
+
+button:hover{
+    background-color: turquoise;
+    color: black;
+}
+h3:hover{
+    background-color: black;
+    color: aliceblue;
+}
+a:hover{
+    background-color: thistle;
+    color: aliceblue;
+}
+h1:hover{
+    background-color: black;
+    color: white;
+}
+button:active{
+    background: hotpink;
+}
+h3:active{
+    background-color: brown;
+}
+p:active{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: green;
+}
+input[type="radio"]:checked +label{
+    color: red;
+    font-weight: bold;
+}
+.post:nth-of-type(3n){
+    background-color: red;
+}
+header:nth-of-type(){
+    background-color: aquamarine;
+}
+h1::first-letter{
+    color: green;
+}
+p::first-line{
+    color: tomato;
+}
+p::selection{
+    color: yellow;
+}
+p::selection{
+    color: hotpink;
+}
+h5{
+    background-color: aqua;
+}
+#great{
+    background-color: yellow;
+}
+.myclass{
+    background-color: brown;
+}

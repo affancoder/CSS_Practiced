@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smiley Face</title>
+    <style>
+      #outer {
+        background-color: yellow;
+        border: 2px solid black;
+        height: 100px;
+        width: 100px;
+        margin: 100px auto;
+        padding: 100px;
+        border-radius: 50%;
+      }
+      #mouth {
+        background-color: black;
+        border: 2px solid black;
+        height: 50px;
+        width: 150px;
+        border-radius: 0px 0px 50px 50px;
+        position: absolute;
+        top: 310px;
+        transform: translateX(-22px);
+      }
+      .circle {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: red;
+        display: ruby;
+      }
+      #right_eye {
+        background-color: aqua;
+        position: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="outer">
+      <div id="eyes">
+        <div id="left_eye" class="circle"></div>
+        <div id="right_eye" class="circle"></div>
+      </div>
+      <div id="mouth" class="third"></div>
+    </div>
+  </body>
+</html>

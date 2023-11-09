@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid all types</title>
+    <style>
+      .container {
+        width: 600px;
+        height: 300px;
+        background-color: aquamarine;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
+        /* row-gap: 50px;
+        column-gap: 50px; */
+        grid-gap: 10px;
+        margin: 0px auto;
+        align-items: end;
+        align-self: start;
+      }
+      .itemone{
+        height: 50px;
+        width: 100px;
+        border: 2px solid black;
+        background-color: blue;
+        text-align: center;
+        place-self: start;
+      }
+      /* .itemone {
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-column: 1 / span2;
+        border: 2px solid darkcyan;
+      }
+      .itemtwo{
+        grid-row-start: 1;
+        grid-row-end: 3;
+      } */
+    </style>
+  </head>
+  <body>
+    <h1>Grid playground</h1>
+    <div class="container">
+      <div class="itemone">1</div>
+      <div class="itemtwo">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+    </div>
+    <span>Lorem, ipsum dolor.
+    </span>
+  </body>
+</html>

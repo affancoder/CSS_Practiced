@@ -1,0 +1,18 @@
+h1{
+    color: rgb(27, 102, 163);
+}
+#userbtn{
+    background-color: aqua;
+    border: 2px solid black;
+    color: aliceblue;
+}
+#searchbtn{
+    background-color: black;
+    color: aliceblue;
+}
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+p a{
+    background-color: yellowgreen;
+}
